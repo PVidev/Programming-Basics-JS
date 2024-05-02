@@ -8,25 +8,24 @@ function onTimeForTheExam(input) {
     let totalMinArrivalTime = (arrivalHour * 60) + arrivalMinute;
  
     let timeDifference = totalMinArrivalTime - totalMinExamTime;
-    let totalHour = Math.trunc(timeDifference / 60)
-    let totalMinute = Math.abs(timeDifference % 60)
+    let totalHour = Math.abs(Math.trunc(timeDifference / 60));
+    let totalMinute = Math.abs(timeDifference % 60);
  
-    if (timeDifference >= -30 && timeDifference <= 0){
-        console.log("On time");
-    } else if (timeDifference <= -30){
+    if (timeDifference < -30) {
         console.log("Early");
-    } else if (timeDifference > 0){
-        console.log("Late")
+    } else if (timeDifference <= 0) {
+        console.log("On time");
+    } else {
+        console.log("Late");
     }
 
-    if (timeDifference < 60){
-        console.log(`${totalMinute} minutes before the start`);
-    } else if (timeDifference >= 60 && timeDifference < 120){
-        console.log(`${totalHour} hours and ${totalMinute} minutes before the start`);
-    } else if (timeDifference >= 120){
-        console.log(`${totalHour} hours before the start`);
+    if (timeDifference !== 0) {
+        if (totalHour === 0) {
+            console.log(`${totalMinute} minutes ${timeDifference < 0 ? 'before' : 'after'} the start`);
+        } else {
+            console.log(`${totalHour}:${totalMinute < 10 ? '0' : ''}${totalMinute} hours ${timeDifference < 0 ? 'before' : 'after'} the start`);
+        }
     }
-
 }
 
 onTimeForTheExam(["9", "00", "8", "30"]);
