@@ -1,5 +1,0 @@
-function sumOfNumbers(input) {
-    
-}
-
-sumOfNumbers([""]);
