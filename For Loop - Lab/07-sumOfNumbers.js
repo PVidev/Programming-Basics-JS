@@ -1,0 +1,5 @@
+function sumOfNumbers(input) {
+    
+}
+
+sumOfNumbers([""]);
