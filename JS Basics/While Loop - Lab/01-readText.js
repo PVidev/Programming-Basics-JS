@@ -7,13 +7,4 @@ function readText(input) {
     }
 }
 
-readText(["Sofia",
-"Berlin",
-"Moscow",
-"Athens",
-"Madrid",
-"London",
-"Paris",
-"Stop",
-"AfterStop"])
-;
+readText(["Sofia", "Berlin", "Moscow", "Athens", "Madrid", "London", "Paris", "Stop", "AfterStop"]);
