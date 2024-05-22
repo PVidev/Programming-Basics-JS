@@ -1,9 +1,12 @@
 function readText(input) {
-    for (let i = 0; i < input.length; i++) {
-        if (input[i] === "Stop") {
-            break;
-        }
-        console.log(input[i]);
+    let index = 0;
+    let command = input[index];
+    index++;
+
+    while (command !== "Stop") {
+        console.log(command);
+        command = input[index];
+        index++;
     }
 }
 
