@@ -1,15 +1,32 @@
-﻿# Programming-Basics-JS
+# Programming-Basics-JS
 
-# JS Basic:
-### 1) First Steps In Coding - Lab
-### 2) First Steps In Coding - Exercise
-### 3) Conditional Statements - Lab
-### 4)  Conditional Statements - Exercise
-### 5) Conditional Statements Advanced - Lab
-### 6) Conditional Statements Advanced - Exercise
-### 7) For Loop - Lab
-### 8) For Loop - Exercise
-### 9) While Loop - Lab
-### 10) While Loop - Exercise
-### 11) Nested Loops - Lab
-### 12) Nested Loops - Exercise
+This repository contains solutions for **Programming Basics with JavaScript** exercises from SoftUni.
+
+## 📌 JS Basic
+
+### 🏁 First Steps in Coding
+1️⃣ **Lab**  
+2️⃣ **Exercise**  
+
+### 🔀 Conditional Statements
+3️⃣ **Lab**  
+4️⃣ **Exercise**  
+
+### 🔍 Conditional Statements Advanced
+5️⃣ **Lab**  
+6️⃣ **Exercise**  
+
+### 🔄 For Loop
+7️⃣ **Lab**  
+8️⃣ **Exercise**  
+
+### 🔄 While Loop
+9️⃣ **Lab**  
+🔟 **Exercise**  
+
+### 🔁 Nested Loops
+1️⃣1️⃣ **Lab**  
+1️⃣2️⃣ **Exercise**  
+
+---
+More exercises and solutions will be added! 🚀
